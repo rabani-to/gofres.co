@@ -1,7 +1,7 @@
 {
-  "name": "nextra-docs-template",
+  "name": "fresco-docs",
   "version": "0.0.1",
-  "description": "Nextra docs template",
+  "description": "Fresco docs",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -22,8 +22,7 @@
     "nextra": "latest",
     "nextra-theme-docs": "latest",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "styled-components": "^6.0.5"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/node": "18.11.10",

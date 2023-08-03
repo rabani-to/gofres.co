@@ -1,28 +1,13 @@
-import React from "react"
-import { DocsThemeConfig } from "nextra-theme-docs"
-import { Inter } from "next/font/google"
-import Logo from "components/Logo"
-
-const InterFont = Inter({
-  display: "swap",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "800"],
-})
+import type { DocsThemeConfig } from "nextra-theme-docs"
+import FrescoByRadish from "@/components/FrescoByRadish"
 
 const config: DocsThemeConfig = {
-  head: (
-    <>
-      <style>
-        {`
-          body,
-          html {
-            font-family: ${InterFont.style.fontFamily};
-          }
-        `}
-      </style>
-    </>
-  ),
-  logo: <Logo width="4rem" />,
+  useNextSeoProps() {
+    return {
+      titleTemplate: "%s – Fresco",
+    }
+  },
+  logo: <FrescoByRadish />,
   project: {
     link: "https://github.com/rabani-to/gofres.co",
   },
@@ -31,7 +16,7 @@ const config: DocsThemeConfig = {
   },
   docsRepositoryBase: "https://github.com/rabani-to/gofres.co",
   footer: {
-    text: "Nextra Docs Template",
+    text: "Radish - Fresco Docs",
   },
 }
 

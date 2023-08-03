@@ -1,16 +1,16 @@
 {
   "index": {
+    "title": "Home",
+    "type": "page"
+  },
+  "docs": {
     "title": "Docs",
     "type": "page"
   },
-  "about": {
-    "title": "About",
-    "type": "page"
-  },
   "contact": {
-    "title": "Contact ↗",
+    "title": "Radish ↗",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "https://twitter.com/radish_la",
     "newWindow": true
   }
 }
