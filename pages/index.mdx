@@ -1,3 +1,31 @@
+import { Tabs, Tab } from "nextra/components"
+
 import MainHeader from "@/components/MainHeader"
 
 <MainHeader />
+
+{/* prettier-ignore-start */}
+
+<section className="max-w-[22rem] mx-auto my-12 text-center">
+  <Tabs className="yeah" items={["npm", "pnpm", "yarn"]}>
+    <Tab>
+```sh copy
+npm i @radish-la/fresco
+```
+    </Tab>
+
+    <Tab>
+```sh copy
+pnpm i @radish-la/fresco
+```
+    </Tab>
+
+    <Tab>
+```sh copy
+yarn add @radish-la/fresco
+```
+    </Tab>
+
+  </Tabs>
+</section>
+{/* prettier-ignore-end */}
