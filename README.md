@@ -1,1 +1,1 @@
-fresco/packages/fresco/README.md
+fresco/README.md
