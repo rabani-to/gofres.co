@@ -7,9 +7,4 @@ const withNextra = require("nextra")({
   themeConfig: "./theme.config.tsx",
 })
 
-module.exports = withNextra({
-  webpack(config) {
-    config.resolve.symlinks = false
-    return config
-  },
-})
+module.exports = withNextra({})
