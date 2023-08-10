@@ -1,5 +1,3 @@
-import type { CSSProperties } from "react"
-
 function Logo({ className }: { className?: string }) {
   return (
     <svg
