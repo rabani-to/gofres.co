@@ -1,5 +1,5 @@
 import type { PropsWithChildren } from "react"
-import { Button } from "./fresco"
+import Button from "@/components/Button"
 
 function GoToStorybook({
   className,
