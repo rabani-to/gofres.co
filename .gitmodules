@@ -1,3 +1,4 @@
 [submodule "fresco"]
 	path = fresco
 	url = https://github.com/rabani-to/fresco.git
+	branch = master
